@@ -1,0 +1,14 @@
+x86 is a 32 bit processor, each register is 32 bits in size
+
+Example Registers: EAX, EBX, ECX, EDX
+16 Bit Registers: AX, BX, CX, DX
+8 bit High: AH, BH, CH, DH
+8 bit Low: AL, BL, CL, DL
+
+See regs1.png, regs2.png for some common registers in x86
+
+
+NOTE: run the following command:
+echo "set disassembly-flavor intel" > ~/.gdbinit
+
+This sets the format of layout asm to intel instead of at&t
