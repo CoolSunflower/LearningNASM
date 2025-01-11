@@ -12,3 +12,11 @@ NOTE: run the following command:
 echo "set disassembly-flavor intel" > ~/.gdbinit
 
 This sets the format of layout asm to intel instead of at&t
+
+
+About System Calls:
+x86 system calls: https://faculty.nps.edu/cseagle/assembly/sys_call.html
+
+Open System Call: https://man7.org/linux/man-pages/man2/open.2.html
+Read System Call: https://man7.org/linux/man-pages/man2/read.2.html
+fnctl.h for constants: https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html
